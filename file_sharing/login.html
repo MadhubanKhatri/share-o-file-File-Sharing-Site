@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style type="text/css">
+		*
+		{
+			font-family: sans-serif;
+		}
+		.container
+		{
+			width: 500px;
+			height: auto;
+			border: 2px solid;
+			position: relative;
+			top: 100px;
+			left: 300px;
+			padding: 20px;
+		}
+		.container input[type='text']
+		{
+			padding: 10px;
+			font-size: 20px;
+		}
+		.container input[type='submit']
+		{
+			border: 1px solid;
+			font-size:25px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Login</h1>
+		<form action="" method="POST">
+			<input type="text" name="username" placeholder="Username">
+			<br><br>
+			<input type="text" name="password" placeholder="Password">
+			<br><br>
+			<input type="submit" name="login" value="Login">
+			<br><br>
+			<span>Don't have an Account? </span><a href="signup.php">Sign Up</a>
+		</form>
+	</div>
+</body>
+</html>
